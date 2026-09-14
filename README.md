@@ -12,7 +12,6 @@ Para este parcial hice un contador binario de 4 bits usando Arduino. La idea es 
 - 1 pulsador
 - Cables jumper
 
-No tuve los materiales físicos a la mano, así que todo lo hice y probé en la simulación de Tinkercad.
 
 ## 3. Explicación del circuito
 
@@ -64,7 +63,7 @@ Tenía que mostrar solo los pares (0, 2, 4... 14). En vez de sumar de 1 en 1 en 
 Tenía que agregar un quinto LED que se prendiera solo cuando el contador llegara a 15. Agregué el pin del nuevo LED, lo configuré como salida, y adentro del `loop()` puse un `if` que revisa: si el contador es 15, prende ese LED, si no, lo mantiene apagado.
 
 ## 7. Evidencias
-Todo el funcionamiento del circuito y los 5 retos queda documentado en el video de la sección 8, ya que ahí se puede ver con claridad el comportamiento de cada uno.
+<img width="401" height="494" alt="evidencia" src="https://github.com/user-attachments/assets/d0bebfa7-d4e6-49ab-a15d-37570c21523c" />
 
 ## 8. Evidencia audiovisual
 En este video se muestra el funcionamiento del contador con los 5 retos: velocidad, descendente, botón, pares y LED indicador.
